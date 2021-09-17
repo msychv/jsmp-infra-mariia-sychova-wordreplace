@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Replace all occurrences of a particular word with another one",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test:unit": "jest --config jestconfig.json",
     "compile": "tsc",
@@ -19,6 +20,13 @@
     "url": "https://github.com/msychv/jsmp-infra-mariia-sychova-wordreplace/issues"
   },
   "homepage": "https://github.com/msychv/jsmp-infra-mariia-sychova-wordreplace#readme",
+  "keywords": [
+    "replace",
+    "word",
+    "string",
+    "npm",
+    "package"
+  ],
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "jest": "^27.2.0",
